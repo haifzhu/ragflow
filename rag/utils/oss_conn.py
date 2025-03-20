@@ -21,7 +21,7 @@ from rag.utils import singleton
 from rag import settings
 
 @singleton
-class RAGFlowOSS(object):
+class RAGFlowOSS:
     def __init__(self):
         self.conn = None
         self.oss_config = settings.OSS
